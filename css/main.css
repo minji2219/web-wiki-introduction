@@ -15,3 +15,7 @@
   height:250px;
   object-fit: cover;
 }
+
+.life-song{
+  margin:var(--page-subtitle-margin-y) 0;
+}
