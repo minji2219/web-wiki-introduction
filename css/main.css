@@ -19,3 +19,54 @@
 .life-song{
   margin:var(--page-subtitle-margin-y) 0;
 }
+
+.comment-writing-container{
+  margin-bottom:var(--page-subtitle-margin-y);
+}
+
+.review{
+  display:flex;
+}
+
+.review input{
+  padding:8px;
+  flex-grow:1;
+  border:1px solid #D8D8D8;
+}
+
+.review button{
+  width:70px;
+  height:40px;
+  font-weight: 700;
+  border:none;
+  cursor: pointer;
+}
+
+.review .cancel{
+  background-color: #D8D8D8;
+}
+
+.review .register{
+  background-color: #D7F9F6;
+}
+
+.comment-list{
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.comment-list li{
+  border:1px solid #D8D8D8;
+  padding:16px;
+}
+
+.comment-author{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.visitor{
+  font-weight:700;
+}

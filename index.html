@@ -93,11 +93,13 @@
         <section id="review">
           <div class="comment-writing-container">
             <form>
-              <fieldset>
-                <legend>댓글 쓰기</legend>
-                <textarea
+              <h3 class="subtitle">댓글 쓰기</h3>
+              <fieldset class="review">
+                <input
                   placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
-                ></textarea>
+                />
+                <button type="reset" class="cancel">취소</button>
+                <button type="button" class="register">등록</button>
               </fieldset>
             </form>
           </div>
@@ -106,7 +108,7 @@
               <div class="comment-item">
                 <div class="comment-author">
                   <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
+                  <span class="visitor">방문자</span>
                 </div>
                 <div class="comment-content">
                   대학생 때 읽었던 모모가 문득 생각나서 다시 펼쳐봤는데, 글쓴이님 말씀처럼 정말 지금 보니까 완전 다르게
@@ -116,7 +118,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <!-- <li>
               <div class="comment-item">
                 <div class="comment-author">
                   <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
@@ -141,7 +143,7 @@
                   저도 이제는 하루에 한 번은 커피 마시면서 창밖 구경하기로 했어요 ☕️
                 </div>
               </div>
-            </li>
+            </li> -->
           </ul>
         </section>
 
